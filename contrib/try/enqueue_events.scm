@@ -1,7 +1,7 @@
-;; Load by (load "http://localhost/zen/enqueue_events.scm")
+;; Load by (load "http://localhost/enqueue_events.scm")
 ;; The zen directory should be in your web server's document root.
 
-(load "http://localhost/zen/queue.scm")
+(load "http://localhost/queue.scm")
 (define q (make-queue))
 
 ;; This variable will be used to determine how many events the main,
