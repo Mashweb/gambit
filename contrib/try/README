@@ -1,3 +1,5 @@
 This program implements the "online Gambit Scheme REPL" web app.  It
 is a REPL running entirely inside the browser that allows
 experimentation with Gambit and the DOM.
+
+It locally loads a Scheme file that interacts with JavaScript events.
